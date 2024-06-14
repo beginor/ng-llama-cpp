@@ -1,0 +1,10 @@
+<div class="flex-grow-1 pe-1">
+  <textarea class="form-control" [(ngModel)]="input.text"></textarea>
+</div>
+<div class="d-grid ps-1">
+  <button class="btn btn-primary" type="button"
+    (click)="sendText()"
+    [disabled]="!canSendText()">
+    发送
+  </button>
+</div>

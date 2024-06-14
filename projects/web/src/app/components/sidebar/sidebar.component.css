@@ -1,0 +1,18 @@
+:host {
+  width: 240px;
+  background-color: #1c1f20;
+  padding: 0;
+  color: var(--bs-light);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+ul.nav.nav-pills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  overflow: auto;
+}

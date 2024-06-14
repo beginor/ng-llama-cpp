@@ -1,0 +1,15 @@
+<img class='mb-2' style="width: 240px;" src='/assets/llama-cpp.png'
+  alt='LLaMA C++' />
+
+<ul class="nav nav-pills mx-2">
+  @for (node of vm.nodes; track node.url) {
+    <li class="nav-item">
+      <a class="nav-link"
+        [routerLink]="node.url" routerLinkActive="active">
+        {{node.label}}
+      </a>
+    </li>
+  }
+</ul>
+
+<app-chat-formatter class="mt-auto mx-2 mb-2" />
